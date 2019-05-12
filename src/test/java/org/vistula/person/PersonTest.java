@@ -10,6 +10,7 @@ public class PersonTest {
     public void shouldCorrectlyReturnAge() {
         Person slawek = new Person();
         assert slawek.getAge() == 18;
+        //
     }
 
     @Test
